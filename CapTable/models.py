@@ -5,7 +5,7 @@ Contains the models for the database.
 from sqlalchemy import Column, Integer, String, ForeignKey, Boolean
 # from sqlalchemy.orm import relationship
 # from sqlalchemy.sql.schema import ForeignKey
-from database import Base
+from .database import Base
 
 
 class Blog(Base):
