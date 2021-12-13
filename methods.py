@@ -1,3 +1,7 @@
+'''
+Contains all functional methods (non-OO) for the module.
+'''
+
 import pandas as pd
 import sqlite3
 from datetime import datetime
