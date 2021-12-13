@@ -7,7 +7,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.orm.session import sessionmaker
 
-SQLALCHEMY_DATABSE_URI = "sqlite:///cap_blog.db"
+SQLALCHEMY_DATABSE_URI = "sqlite:///cap_log.db"
 
 engine = create_engine(SQLALCHEMY_DATABSE_URI, connect_args={
                        'check_same_thread': False})

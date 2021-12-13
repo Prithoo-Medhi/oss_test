@@ -6,7 +6,7 @@ import pandas as pd
 import sqlite3
 from datetime import datetime
 
-def export_as_spreadsheet(tablename = 'cap_matrix', db = 'cap_blog.db'):
+def export_as_spreadsheet(tablename = 'cap_matrix', db = 'cap_log.db'):
     """
     Exports a table as a spreadsheet.
     """
