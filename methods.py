@@ -1,5 +1,5 @@
 '''
-Contains all functional methods (non-OO) for the module.
+Contains all functional methods (non-OOP) for the module.
 '''
 
 import pandas as pd
