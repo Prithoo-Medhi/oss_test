@@ -16,6 +16,6 @@ def export_as_spreadsheet(tablename = 'cap_matrix', db = 'cap_log.db'):
     # Get the data
     tabledata = pd.read_sql_query("SELECT * FROM " + tablename, conn)
     # Export to a spreadsheet
-    tabledata.to_excel(f'{BASE_PATH}/captable_output/{tablename}-{datetime.now()}.xlsx', index = False)
+    tabledata.to_excel(f'captable_output/{tablename}.xlsx', index = False)
     # Close the connection
     conn.close()
